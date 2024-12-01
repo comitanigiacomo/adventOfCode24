@@ -26,7 +26,6 @@ def generate_table(progress):
         table_rows += f"| {day}   | {part1}      | {part2}      | {link_cell} |\n"
     return table_header + table_rows
 
-# Aggiorna il README
 def update_readme(readme_path, table_content):
     with open(readme_path, 'r') as file:
         lines = file.readlines()
@@ -34,7 +33,6 @@ def update_readme(readme_path, table_content):
     start_marker = "### Advent of Code Progress Tracker 📅"
     end_marker = "|-----|--------|--------|---------------|"
 
-    # Trova l'inizio della sezione e la fine della tabella esistente
     start_index = None
     end_index = None
     for i, line in enumerate(lines):
@@ -44,17 +42,13 @@ def update_readme(readme_path, table_content):
             end_index = i
             break
 
-    # Rimuovi la tabella esistente (se presente)
     if start_index is not None and end_index is not None:
-        lines = lines[:start_index + 1]  # Mantieni la sezione, ma rimuovi la tabella
+        lines = lines[:start_index + 1]
     else:
-        # Se la sezione non esiste, aggiungiamola all'inizio
         lines.append("\n### Advent of Code Progress Tracker 📅\n")
 
-    # Aggiungi la nuova tabella
     lines.append(table_content)
 
-    # Scrivi il file aggiornato
     with open(readme_path, 'w') as file:
         file.writelines(lines)
 
