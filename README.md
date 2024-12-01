@@ -6,8 +6,11 @@ Each day of December, I tackle a new programming challenge designed to improve p
 ### Repository Structure 📂
 Each folder in this repository corresponds to a specific day and contains:
 
-- My solution in `Python`.
-- The input file for the challenge, named `puzzleInput.txt`.
+The repository contains:
+
+- A folder for each day with my Python solution.
+- A progress.json file at the root that tracks my progress.
+- A script to automatically update the progress table in the README.
 
 ### Progress Overview 📈
 Below is a summary of my progress through Advent of Code 2024.  
@@ -27,6 +30,8 @@ Each day has:
 
 ### Contributing 🤝
 Feedback and suggestions are always welcome! Feel free to open an issue or submit a pull request if you have ideas for improvement.
+
+The problem statements for each day can be found at [Advent Of Code](https://adventofcode.com/)
 
 ### Advent of Code Progress Tracker 📅
 | Day | Part 1 | Part 2 | Solution Link |
