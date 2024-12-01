@@ -8,9 +8,9 @@ Each folder in this repository corresponds to a specific day and contains:
 
 The repository contains:
 
-- A folder for each day with my Python solution.
-- A progress.json file at the root that tracks my progress.
-- A script to automatically update the progress table in the README.
+- A folder for each day with my `Python` solution.
+- A `progress.json` file at the root that tracks my progress.
+- A script to automatically update the progress table in the `README`.
 
 ### Progress Overview 📈
 Below is a summary of my progress through Advent of Code 2024.  
