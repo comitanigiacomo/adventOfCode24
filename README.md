@@ -41,7 +41,7 @@ The problem statements for each day can be found at [Advent Of Code](https://adv
 | 3   | ⭐      | ⭐      | [Solution](day3/solution.py) |
 | 4   | ⭐      | ⭐      | [Solution](day4/) |
 | 5   | ⭐      | ⭐      | [Solution](day5/) |
-| 6   | ⚪      | ⚪      |  |
+| 6   | ⭐      | ⭐      | [Solution](day6/) |
 | 7   | ⚪      | ⚪      |  |
 | 8   | ⚪      | ⚪      |  |
 | 9   | ⚪      | ⚪      |  |
