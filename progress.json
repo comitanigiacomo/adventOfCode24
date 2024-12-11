@@ -4,8 +4,7 @@
     "3": {"part1": true, "part2": true, "link": "day3/solution.py"},
     "4": {"part1": true, "part2": true, "link": "day4/"},
     "5": {"part1": true, "part2": true, "link": "day5/"},
-    "6": {"part1": true, "part2": true, "link": "day6/"}
-
-
+    "6": {"part1": true, "part2": true, "link": "day6/"},
+    "11": {"part1": true, "part2": true, "link": "day11/"}
 }
   
